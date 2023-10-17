@@ -1,5 +1,5 @@
 const getRandomElement =  (elements) => {
-    const randomIndex = Math.florr(Math.random() * elements.length)
+    const randomIndex = Math.floor(Math.random() * elements.length)
     return elements[randomIndex]
   }
 

@@ -9,6 +9,7 @@ const backgrounds = ["bg1", "bg2", "bg3", "bg4"]
 function App() {
   const [quote, setQuote] = useState(getRandomElement(quotes))
   const [currentBg, setCurrentBg] = useState(getRandomElement(backgrounds))
+  console.log(currentBg)
 
   const handleChangeQuote = () => {
     setQuote(getRandomElement(quotes))
