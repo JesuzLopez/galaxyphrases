@@ -13,7 +13,7 @@ function App() {
 
   const handleChangeQuote = () => {
     setQuote(getRandomElement(quotes))
-    setCurrentBg(getRandomElement())
+    setCurrentBg(getRandomElement(backgrounds))
   }
 
 
